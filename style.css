@@ -469,9 +469,12 @@ nobr {
   height: 1px;
   border-color: #fff;
   border: 1px solid;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 .line_1{
-  
+  width: 40px;
+height: 1px;
+background: #FFFFEF;
+margin-bottom: 20px;
+margin-top: 20px;
+
 }
