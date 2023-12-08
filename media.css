@@ -22,9 +22,5 @@
             /* 150% */
             border-radius: 34px;
             transition: 0.3s;
-            display: table;
-            table-layout: fixed;
-            width: 100%;
-        
           }
         }
