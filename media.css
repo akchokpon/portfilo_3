@@ -2,7 +2,7 @@
     .menu a {
         padding: 4px 16px;
         margin-right: 8px;
-        color: #9bd008;
+        color: rgb(22, 22, 21);
         font-size: 18px;
         font-weight: 500;
         line-height: 24px;
@@ -11,13 +11,12 @@
         transition: 0.3s;
       }
     }
-
-    @media screen and (max-width: 350px) {
+@media screen and (max-width: 350px) {
         .menu a {
             padding: 4px 16px;
             margin-right: 8px;
-            color: #d0088a;
-            font-size: 8px;
+            color: #0a090a;
+            font-size: 18px;
             font-weight: 500;
             line-height: 24px;
             /* 150% */
