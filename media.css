@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .menu a {
+        padding: 4px 16px;
+        margin-right: 8px;
+        color: #9bd008;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        border-radius: 34px;
+        transition: 0.3s;
+      }
+    }
+
+    @media screen and (max-width: 350px) {
+        .menu a {
+            padding: 4px 16px;
+            margin-right: 8px;
+            color: #d0088a;
+            font-size: 8px;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            border-radius: 34px;
+            transition: 0.3s;
+          }
+        }
