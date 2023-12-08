@@ -24,3 +24,17 @@
             transition: 0.3s;
           }
         }
+@media screen and (max-width: 770px){
+        .burger{
+            width: 33px;
+            height: 20px;
+            border: none;
+            padding: 0;
+            background: none;
+            display: block;
+            position: absolute;
+            top: 68px;
+            right: 30px;
+            width: 33px;
+        }
+      }
