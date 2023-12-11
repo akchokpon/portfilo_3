@@ -50,7 +50,7 @@
         right: 30px;
     }
     .burger_line{
-        width: 100%;
+      width: 100px;
         height: 4px;
         background: #000;
         display: block;
@@ -58,7 +58,7 @@
     }
     .burger_line::before{
         content: '';
-        width: 100%;
+        width: 100px;
         height: 4px;
         background: #000;
         display: block;
@@ -68,7 +68,7 @@
     }
     .burger_line::after{
         content: '';
-        width: 100%;
+        width: 100px;
         height: 4px;
         background: #000;
         display: block;
