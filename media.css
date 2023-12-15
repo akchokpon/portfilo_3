@@ -81,3 +81,8 @@
     width: 300px;
   }
 }
+@media screen and (max-width: 770px){
+  .s_img img {
+    width: 300px;
+  }
+}
