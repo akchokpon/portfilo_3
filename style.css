@@ -302,7 +302,10 @@ section {
 
 /* mini */
 .mini {
-  background-image: url(/img);
+  background-image: url(/img/Rectangle\ \(12\).jpg);
+  width: 1360px;
+height: 732px;
+margin: 0 auto;
 }
 
 .mi_p {
