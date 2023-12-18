@@ -174,9 +174,8 @@ section {
 .head {
   padding: 20px 0;
   align-items: center;
-  width: 1365px;
-height: 88.5px;
-flex-shrink: 0;
+
+  flex-shrink: 0;
 }
 
 .menu a {
@@ -259,6 +258,8 @@ flex-shrink: 0;
   /* 142.105% */
   width: 1194px;
   margin-bottom: 25px;
+  margin-left: 170px;
+  margin-top: 9px;
 }
 
 .link {
@@ -306,9 +307,7 @@ flex-shrink: 0;
 /* mini */
 .mini {
   background-image: url(/img/Rectangle\ \(12\).jpg);
-  width: 1360px;
-height: 732px;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .mi_p {
@@ -328,10 +327,6 @@ margin: 0 auto;
 }
 
 /* story */
-.s_img img {
-  width: 743px;
-}
-
 .s_tit {
   text-align: center;
   font-size: 29px;
@@ -395,7 +390,8 @@ margin: 0 auto;
   width: 320px;
   height: 320px;
 }
-.im_image{
+
+.im_image {
   margin-bottom: 8px;
 }
 
@@ -414,7 +410,6 @@ footer {
   background: #717353;
   width: 1424px;
   margin: 0 auto;
-  height: 382px;
   flex-shrink: 0;
 }
 
@@ -476,11 +471,12 @@ nobr {
   border-color: #fff;
   border: 1px solid;
 }
-.line_1{
+
+.line_1 {
   width: 40px;
-height: 1px;
-background: #FFFFEF;
-margin-bottom: 20px;
-margin-top: 20px;
+  height: 1px;
+  background: #FFFFEF;
+  margin-bottom: 20px;
+  margin-top: 20px;
 
 }
