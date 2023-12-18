@@ -175,7 +175,7 @@ section {
   padding: 20px 0;
   align-items: center;
 
-  flex-shrink: 0;
+flex-shrink: 0;
 }
 
 .menu a {
@@ -307,7 +307,9 @@ section {
 /* mini */
 .mini {
   background-image: url(/img/Rectangle\ \(12\).jpg);
-  margin: 0 auto;
+
+height: 732px;
+margin: 0 auto;
 }
 
 .mi_p {
@@ -328,6 +330,7 @@ section {
 
 /* story */
 .s_img img {
+  width: 743px;
 }
 
 .s_tit {
@@ -393,8 +396,7 @@ section {
   width: 320px;
   height: 320px;
 }
-
-.im_image {
+.im_image{
   margin-bottom: 8px;
 }
 
@@ -475,12 +477,11 @@ nobr {
   border-color: #fff;
   border: 1px solid;
 }
-
-.line_1 {
+.line_1{
   width: 40px;
-  height: 1px;
-  background: #FFFFEF;
-  margin-bottom: 20px;
-  margin-top: 20px;
+height: 1px;
+background: #FFFFEF;
+margin-bottom: 20px;
+margin-top: 20px;
 
 }
