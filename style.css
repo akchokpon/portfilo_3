@@ -349,7 +349,9 @@ margin: 0 auto;
   text-align: center;
 }
 
-
+.story .line {
+  margin: 0 auto;
+}
 
 .s_p {
   margin-top: 32px;
