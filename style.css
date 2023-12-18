@@ -251,6 +251,16 @@ section {
 }
 
 /* text */
+.text_txt {
+  text-align: center;
+  font-size: 57px;
+  line-height: 81px;
+  /* 142.105% */
+  width: 1194px;
+  margin-bottom: 25px;
+  margin-left: 170px;
+  margin-top: 9px;
+}
 
 .link {
   display: flex;
