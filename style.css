@@ -245,10 +245,7 @@ section {
   width: 154px;
 }
 
-.m_btn {
-  display: flex;
-  justify-content: right;
-}
+
 
 /* text */
 .text_txt {
