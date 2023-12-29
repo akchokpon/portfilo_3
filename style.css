@@ -582,8 +582,6 @@ section {
 .im_image {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .input {
@@ -702,6 +700,8 @@ nobr {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .text-center {
   text-align: center;
@@ -710,12 +710,9 @@ nobr {
   color: #7a1616;
 }
 .box-container {
-  align-items: center;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 20px 0px;
-  width: 100%;
+  padding: 20px 15px;
 }
 .box-item {
   position: relative;
