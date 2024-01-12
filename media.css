@@ -4,7 +4,7 @@
     }
 
     body {
-        background-color: chartreuse;
+        background-color: rgb(245, 249, 241);
     }
 }
 
@@ -14,7 +14,7 @@
     }
 
     body {
-        background-color: rgb(104, 31, 120);
+        background-color: rgb(255, 255, 255);
     }
 
     .text_txt {
@@ -54,7 +54,7 @@
     }
 
     body {
-        background-color: rgb(171, 68, 68);
+        background-color: rgb(245, 245, 245);
     }
 
     .footer_big {}
@@ -62,6 +62,60 @@
     .footer_navs {
         flex-direction: column;
     }
+    
+
+    .text_txt {
+        font-size: 35px;
+        line-height: 60px;
+        margin-left: 10px;
+        margin-top: 8px;
+        margin-bottom: 40px;
+    }
+
+    .m_p {
+
+        text-align: right;
+        font-size: 15px;
+        line-height: 21.6px;
+        letter-spacing: 1.8px;
+    }
+    .m_tit{
+        
+  text-align: right;
+  font-size: 30px;
+  line-height: 60.48px;
+  /* 134.4% */
+  margin-bottom: 25px;
+    }
+    .btn {
+        font-size: 10px;
+      }
+    .m_btn{
+        size: 40px;
+    }
+    .btns{
+        flex-direction: column;
+        margin: 0 auto;
+        margin-left: 150px;
+        size: 100px;
+    }
+    .btns .btn {
+        color: #FFFFEF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22.72px;
+        /* 151.467% */
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        background: #56593D; 
+        padding: 0 25px;
+        max-width: 144px;
+        margin-top: 10px;
+      }
+      .btn{
+        size: 50px;
+      }
 }
 
 @media screen and (max-width: 540px) {
@@ -70,7 +124,7 @@
     }
 
     body {
-        background-color: rgb(164, 191, 58);
+        background-color: rgb(234, 235, 230);
     }
 }
 
@@ -80,6 +134,5 @@
     }
 
     body {
-        background-color: rgb(22, 22, 21);
     }
 }
