@@ -1,49 +1,85 @@
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 960px;
+    }
 
-@media screen and (max-width: 1300px) { 
-    .container{ 
-     max-width: 960px; 
-    } 
-    body{
+    body {
         background-color: chartreuse;
     }
-   } 
-   @media screen and (max-width: 990px) { 
-    .container{ 
-     max-width: 750px; 
-    } 
-    body{
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        max-width: 750px;
+    }
+
+    body {
         background-color: rgb(104, 31, 120);
     }
-    .text_txt{   
+
+    .text_txt {
         font-size: 35px;
-        line-height: 70px;
-        margin-left: 80px;
+        line-height: 60px;
+        margin-left: 10px;
         margin-top: 8px;
+        margin-bottom: 40px;
     }
-    
-   } 
-   @media screen and (max-width: 780px) { 
-    .container{ 
-     max-width: 510px; 
-    } 
-    body{
+
+    .m_p {
+
+        text-align: right;
+        font-size: 15px;
+        line-height: 21.6px;
+        letter-spacing: 1.8px;
+    }
+    .m_tit{
+        
+  text-align: right;
+  font-size: 30px;
+  line-height: 60.48px;
+  /* 134.4% */
+  margin-bottom: 25px;
+    }
+    .btn {
+        font-size: 10px;
+      }
+    .m_btn{
+        size: 40px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        max-width: 510px;
+    }
+
+    body {
         background-color: rgb(171, 68, 68);
     }
-   } 
-   @media screen and (max-width: 540px) { 
-    .container{ 
-     max-width: 420px; 
-    } 
-    body{
+
+    .footer_big {}
+
+    .footer_navs {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        max-width: 420px;
+    }
+
+    body {
         background-color: rgb(164, 191, 58);
     }
-   } 
-   @media screen and (max-width: 450px) { 
-    .container{ 
-     max-width: 100%; 
-    } 
-    body{
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 100%;
+    }
+
+    body {
         background-color: rgb(22, 22, 21);
     }
-   }
-   
+}

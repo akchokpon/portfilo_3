@@ -458,6 +458,7 @@ section {
   margin-bottom: 25px;
   margin-left: 170px;
   margin-top: 9px;
+  margin: 0 auto;
 }
 
 .link {
@@ -539,7 +540,6 @@ section {
 }
 
 /* story */
-.s_img img {}
 
 .s_tit {
   text-align: center;
@@ -602,6 +602,7 @@ section {
 .im_image {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .input {
@@ -611,8 +612,12 @@ section {
 
 .one {
   width: 320px;
+  padding: 30px;
+  margin: 0 auto;
 }
-
+.one img{
+  border-radius: 12px;
+}
 .i_tit {
   color: #56593D;
   text-align: center;
@@ -627,8 +632,6 @@ section {
 footer {
   background: #717353;
   margin: 0 auto;
-  height: 382px;
-  flex-shrink: 0;
 }
 
 nobr {
@@ -680,6 +683,10 @@ nobr {
 
 .footer_big {
   padding: 64px;
+
+}
+.footer_navs{
+  flex-wrap: wrap;
 }
 
 .line {
@@ -717,6 +724,9 @@ nobr {
 .one {
   transition: 0.3s;
   border-radius: 12px;
+}
+.s_info{
+  margin: 0 auto;
 }
 
 
@@ -963,21 +973,16 @@ nobr {
 }
 
 .s_img{
-  overflow: hidden;
 }
 .s_img img{
  transition: 0.5s;
 }
 .s_img:hover img{
- transform: scale(1.2);
+ transform: scale(1.1);
 }
 .s_img::before{
  content: '';
  position: absolute;
- top: 0;
- bottom: 0;
- left: 0;
- right: 0;
  background: #000;
  opacity: 0;
  z-index: 1;
@@ -985,4 +990,82 @@ nobr {
 }
 .s_img:hover::before{
  opacity: 0.5;
+}
+
+
+
+footer {
+  background: #717353;
+  width: 100%;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.white-line {
+  display: inline-block;
+  height: 3px;
+  background-color: #fff;
+  width: 70px;
+}
+
+.footer-item .menu {
+  list-style-type: none;
+  margin: 62px;
+}
+
+.footer-item .menu li {
+  padding: 9px;
+}
+
+.footer-item .menu li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mega-menu {
+  display: flex;
+  padding-top: 2%;
+}
+
+.link-show {
+ width: 100%;
+ text-align: center;
+}
+
+
+.link-show a {
+  padding: 8px;
+}
+
+.size16 {
+ font-size: 16px;
+}
+
+.kinnmoments {
+  text-align: center; 
+  margin: 29px;
+  font-size: 18px;
+}
+
+
+.header-item p {
+  margin-left: 43%;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.text-items {
+  padding-top: 6%;
+}
+
+.social {
+  padding: 7%;
 }
