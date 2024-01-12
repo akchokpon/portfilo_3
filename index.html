@@ -174,10 +174,19 @@
             <div class="si_tit">Sign up to our newsletter</div>
             <p class="si_p">Receive special offers and first look at new products.</p>
             <div class="btns flex">
-                <input type="text">
+                <style> 
+                    input[type=text] {
+                      box-sizing: border-box;
+                      border: none;
+                      border-bottom: 2px solid rgb(27, 5, 5);
+                    }
+                    </style>
+                    <form>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname">
+                      </form>
                 <div class="btn">Subscribe</div>
             </div>
-        </div>
     </section>
     <section class="image">
         <div class="container">

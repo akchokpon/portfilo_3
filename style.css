@@ -597,6 +597,9 @@ section {
   display: flex;
   justify-content: center;
 }
+submit{
+  border-bottom: #000;
+}
 
 /*image*/
 .im_image {
@@ -937,6 +940,7 @@ nobr {
   background: #56593D;
   padding: 0 25px;
   max-width: 144px;
+  margin-top: 10px;
 }
 
 .btns input {
